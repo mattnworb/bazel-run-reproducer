@@ -11,5 +11,6 @@ package(default_visibility = ["//:__subpackages__"])
 
 format_multirun(
     name = "format",
+    java = "@multitool//tools/google-java-format",
     starlark = "@buildifier_prebuilt//:buildifier",
 )
